@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.navbar{
+    background-color: black;
+    height: 80px;
+    display: flex;
+    color: white;
+    justify-content:space-around;
+    align-items: flex-start;
+}
+
+.list{
+    display: flex;
+    list-style-type:none;
+    margin-right: 400px;
+    margin-bottom: 30px;
+
+}
+.list-item{
+   margin-right: 45px;
+    margin-top: 27px;
+    margin-left: 25px;
+    color: whitesmoke;
+}
+.button-small{
+    border:0;
+    background-color: #ba0cc5;
+    padding:10px 20px;
+    margin-right: 50px;
+    border-radius: 5px;
+    margin: 20px;
+    color: whitesmoke;
+   
+}
+img{
+    padding:20px 20px;
+    margin-bottom: 0px;
+    max-width: 100px;
+    max-height: 40px;
+}
+.hero{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+     align-items: center;
+     margin-top:120px ;
+}     
+.container{
+    font: size 80px;;
+    color: white;
+    background-image: url(bg.jpg) ;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+
+}
+.hero-discription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.button-large{
+    border:0;
+    background-color: #ba0cc5;
+    padding: 15px 25px;
+    border-radius: 5px;
+   margin: 10px 0px;
+   font-size: 20px; 
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}  
+.hero-heading{
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+p{
+    font-size: 35px;
+    height: 60px;
+
+}
+.logo{
+    width: 80px;
+    
+    margin-left: 20px;
+}
+i{
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 1px;
+    margin-right:10px;
+    margin-top: 33px;
+
+}
+.down{
+    transform: rotate(45deg);
+}
+.first{
+    margin-top: 25px;
+    margin-right:10px;
+}
+
+.line{
+        font-size: 60px;
+}
+    
+    
